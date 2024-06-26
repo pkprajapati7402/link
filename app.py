@@ -15,7 +15,8 @@ def analyze_url():
     if not url:
         return jsonify({'error': 'URL is required'}), 400
 
-    safe_browsing_api_url = f'https://safebrowsing.googleapis.com/v4/threatMatches:find?key={API_KEY}'
+    safe_browsing_api_url = f'https://safebrowsing.googleapis.com/v4/threatMatches:find?key={AIzaSyC8MZVP20QIKHCtiNB9v8ov2exoNo3vD_0
+}'
     body = {
         'client': {
             'clientId': 'yourcompanyname',
